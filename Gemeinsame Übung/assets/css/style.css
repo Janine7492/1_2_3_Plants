@@ -1,0 +1,58 @@
+/* Pseudo Elements */
+h1::first-letter {
+    font-size: 60px;
+    color: red;
+}
+
+h1::selection {
+    color: gold;
+    background-color: tomato;
+}
+
+/* p::first-letter {
+    font-size: 50px;
+    color: green;
+}
+
+p::first-line {
+    color: purple;
+} */
+
+p span {
+    color: green;
+    background-color: gold;
+}
+
+a:hover {
+    background-color: gold;
+}
+
+a:active {
+    color: green;
+}
+
+/* CLASS & ID */
+html {
+    scroll-behavior: smooth;
+}
+
+.p_bgPurple {
+    background-color: purple;
+    font-size: 30px;
+    color: white;
+}
+
+#section_one {
+    background-color: lightgreen;
+    height: 100vh;
+}
+
+#section_two {
+    background-color: pink;
+    height: 100vh;
+}
+
+#section_three {
+    background-color: crimson;
+    height: 100vh;
+}

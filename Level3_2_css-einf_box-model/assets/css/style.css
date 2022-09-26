@@ -1,0 +1,169 @@
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+    font-family: Fredericka;
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: OpenSans-Regular;
+    /* text-align: center; */
+}
+
+h1,
+h2,
+h3 {
+    font-family: Fredericka;
+}
+
+header {
+    background-image: url("../images/Lev3_2_css-einführung_box-model_img.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: whitesmoke;
+}
+
+header h1 {
+    text-align: left;
+    font-size: 60px;
+    margin: 0 100px;
+}
+
+header section {
+    margin-top: 33vh;
+    padding: 10px auto;
+}
+
+header section h2 {
+    width: 200px;
+    margin: 20px auto;
+    font-size: 25px;
+    text-align: center;
+}
+
+header section article p {
+    margin: 30px auto;
+    text-align: center;
+    width: 400px;
+    font-size: 15px;
+}
+
+header section article a {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+header section nav ul {
+    margin-top: 30vh;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+    text-align: right;
+    list-style: none;
+    font-size: 15px;
+}
+
+header section nav ul li a,
+footer section article a {
+    text-align: right;
+    text-decoration: none;
+    color: whitesmoke;
+    padding-bottom: 50px;
+}
+
+main section h3 {
+    width: 400px;
+    margin: 50px auto;
+    font-size: 25px;
+}
+
+main section article p {
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+}
+
+main section article div {
+    width: 110px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 3px double gray;
+    text-align: center;
+    font-size: 14px;
+}
+
+main section article div a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #3A3B4A;
+    margin-top: 60px;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+footer section article p {
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    width: 500px;
+    color: whitesmoke;
+    font-size: 10px;
+}
+
+footer section article a {
+    text-align: left;
+    margin-left: 30px;
+    padding: 8px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 0 8px black;
+    font-size: 10px;
+}
+
+footer nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 5px 15px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+article a:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+div a:hover {
+    text-decoration: underline;
+    background-color: whitesmoke;
+}
